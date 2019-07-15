@@ -1,0 +1,87 @@
+/* body{
+    /* background-image: url("assets\images\cool-backgrounds.png"); */
+/* } */
+.head-1{
+    width: 300px;
+    padding: 30px;
+    margin: 20px;
+    background-color: black;
+}
+ .crystal{
+    padding: 10px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+ }
+ 
+p{
+    color:green;
+}
+article{/*container for game rules*/
+    width:500px;
+    margin:20px;
+    background-color:black;
+
+}
+
+.random-container{
+    width:200px;
+    margin:20px;
+    background-color: black;
+}
+
+#random-number{
+    padding: 50px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} 
+ .side{
+    float:left;
+}
+section{
+    float: left;
+}
+.score{
+    width:200px;
+    margin:20px;
+    background-color: black;
+}
+ #wins-text,#losses-text{
+    padding: 50px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} 
+button{ 
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}   
+
+h2{
+    width:200px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+aside{
+    width:200px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
