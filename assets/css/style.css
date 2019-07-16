@@ -59,7 +59,7 @@ transform: translate(0, 50%)
 
 #random-number {
     color: white;
-    background: greenyellow;
+    background: rgb(226, 116, 53);
     font-size: 25px;
     width: 50px;
     padding: 50px;
@@ -90,7 +90,19 @@ transform: translate(0, 50%)
 
 }
 
-.crystal {
+.crystal-0{
+    position: relative;
+    padding: 10px;
+    /* float: left; */
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.crystal-1{
     position: relative;
     padding: 10px;
     /* float: left; */
@@ -103,10 +115,50 @@ transform: translate(0, 50%)
 
 }
 
+.crystal-2{
+    position: relative;
+    padding: 10px;
+    /* float: left; */
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.crystal-3{
+    position: relative;
+    padding: 10px;
+    /* float: left; */
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 .container-5{
     align-content: center;
 }
 #total-sum{
+    color: white;
+    background: rgb(226, 116, 53);
+    font-size: 25px;
+    width: 300px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-6{
+    align-content: center;
+
+}
+
+#winner, #loser{
     color: white;
     background: rgb(226, 116, 53);
     font-size: 25px;
