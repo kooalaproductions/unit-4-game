@@ -1,3 +1,4 @@
+//global variables
 var randomNum = "";
 var startNum = 0;
 var wins = 0;
