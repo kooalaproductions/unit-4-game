@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Crystal Collector</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
     <link rel="stylesheet" type="text/css" href="assets\css\style.css">
 
@@ -12,29 +15,52 @@
 </head>
 
 <body background="assets\images\crystal-background.jpeg">
+    <div class="row">
 
-    <div class="container-1">
-        <h1 class="crystal-head">Crystal Collector</h1>
-    </div>
-    <div class="container-2">
-        <p class="key-start">Press Enter to Start</p>
-    </div>
-    <div class="container-3">
-        <p class="rule-container"> </p>
-    </div>
-    <div class="container-4"></div>
 
-<!--Display the Crystals-->
+        <div class="container-1">
+            <h1 class="crystal-head">Crystal Collector</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container-2">
+            <p class="key-start">Press Enter to Start</p>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="container-3">
+            <p class="rule-container">You will be give a random number at the start of the game. <br> <br> Try to match
+                the number by clicking on the crystals.
+                <br> <br>
+                You will have to find out the values of the crystals by clicking on them.
+                <br>
+
+            </p>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="container-4"></div>
+
+    </div>
+    <!--Display the Crystals-->
     <div class="row">
 
         <div class="cards"></div>
     </div>
 
+
+
     <!--Will display the User's number total-->
-    <div class = "container-5"></div>
+    <div class="row">
+        <div class="container-5 col-lg-8"></div>
+        <div class="container-5-6 col-lg-4"></div>
+    </div>
 
     <!--Will display wins and losses-->
-    <div class = "container-6"></div>
+    <div class="container-6"></div>
+    <!-- <div class="container-5-6"></div> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
