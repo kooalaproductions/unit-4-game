@@ -79,14 +79,14 @@ function crystalValue() {
         crystal.attr("src", crystalImg[i]);
         crystal.attr("height", "100");
         crystal.attr("value", (Math.floor(Math.random() * 12) + 1));
-        $(".cards").append(crystal);
+        $(".crystal-container").append(crystal);
     }
     
 }
 
 function addNum() { //adds the value when crystals are clicked
     var valueNum = 0;
-    $('.cards img').click(function () {
+    $('.crystal-container img').click(function () {
         // alert($(this).attr('value'));
         valueNum = parseInt($(this).attr('value'));
 
